@@ -1,0 +1,388 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8604A5552A68B3590025E43F /* Seventeen_AgainApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8604A5542A68B3590025E43F /* Seventeen_AgainApp.swift */; };
+		8604A5572A68B3590025E43F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8604A5562A68B3590025E43F /* ContentView.swift */; };
+		8604A5592A68B35B0025E43F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8604A5582A68B35B0025E43F /* Assets.xcassets */; };
+		8604A55D2A68B35B0025E43F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8604A55C2A68B35B0025E43F /* Preview Assets.xcassets */; };
+		8604A5642A68BECB0025E43F /* Scrolling.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8604A5632A68BECB0025E43F /* Scrolling.swift */; };
+		8604A5662A68C1F10025E43F /* ScrollImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8604A5652A68C1F10025E43F /* ScrollImage.swift */; };
+		8611502F2A696D0000F841C1 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8611502E2A696D0000F841C1 /* Place.swift */; };
+		8684A9332A695E460070A9D0 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8684A9322A695E460070A9D0 /* MapView.swift */; };
+		86DF5ADA2A6980CD00E42D55 /* Symbols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DF5AD92A6980CD00E42D55 /* Symbols.swift */; };
+		86E1AE4D2A69A1DB0024538A /* VegasChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E1AE4C2A69A1DB0024538A /* VegasChart.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8604A5512A68B3590025E43F /* Seventeen Again.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Seventeen Again.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8604A5542A68B3590025E43F /* Seventeen_AgainApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Seventeen_AgainApp.swift; sourceTree = "<group>"; };
+		8604A5562A68B3590025E43F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8604A5582A68B35B0025E43F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8604A55A2A68B35B0025E43F /* Seventeen_Again.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Seventeen_Again.entitlements; sourceTree = "<group>"; };
+		8604A55C2A68B35B0025E43F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8604A5632A68BECB0025E43F /* Scrolling.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scrolling.swift; sourceTree = "<group>"; };
+		8604A5652A68C1F10025E43F /* ScrollImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollImage.swift; sourceTree = "<group>"; };
+		8611502E2A696D0000F841C1 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		8684A9322A695E460070A9D0 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		86DF5AD92A6980CD00E42D55 /* Symbols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbols.swift; sourceTree = "<group>"; };
+		86E1AE4C2A69A1DB0024538A /* VegasChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegasChart.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8604A54E2A68B3590025E43F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8604A5482A68B3580025E43F = {
+			isa = PBXGroup;
+			children = (
+				8604A5532A68B3590025E43F /* Seventeen Again */,
+				8604A5522A68B3590025E43F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8604A5522A68B3590025E43F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8604A5512A68B3590025E43F /* Seventeen Again.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8604A5532A68B3590025E43F /* Seventeen Again */ = {
+			isa = PBXGroup;
+			children = (
+				8604A5542A68B3590025E43F /* Seventeen_AgainApp.swift */,
+				86E1AE4C2A69A1DB0024538A /* VegasChart.swift */,
+				8604A5562A68B3590025E43F /* ContentView.swift */,
+				8611502E2A696D0000F841C1 /* Place.swift */,
+				8604A5632A68BECB0025E43F /* Scrolling.swift */,
+				8684A9322A695E460070A9D0 /* MapView.swift */,
+				86DF5AD92A6980CD00E42D55 /* Symbols.swift */,
+				8604A5652A68C1F10025E43F /* ScrollImage.swift */,
+				8604A5582A68B35B0025E43F /* Assets.xcassets */,
+				8604A55A2A68B35B0025E43F /* Seventeen_Again.entitlements */,
+				8604A55B2A68B35B0025E43F /* Preview Content */,
+			);
+			path = "Seventeen Again";
+			sourceTree = "<group>";
+		};
+		8604A55B2A68B35B0025E43F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8604A55C2A68B35B0025E43F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8604A5502A68B3590025E43F /* Seventeen Again */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8604A5602A68B35B0025E43F /* Build configuration list for PBXNativeTarget "Seventeen Again" */;
+			buildPhases = (
+				8604A54D2A68B3590025E43F /* Sources */,
+				8604A54E2A68B3590025E43F /* Frameworks */,
+				8604A54F2A68B3590025E43F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Seventeen Again";
+			productName = "Seventeen Again";
+			productReference = 8604A5512A68B3590025E43F /* Seventeen Again.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8604A5492A68B3580025E43F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					8604A5502A68B3590025E43F = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 8604A54C2A68B3580025E43F /* Build configuration list for PBXProject "Seventeen Again" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8604A5482A68B3580025E43F;
+			productRefGroup = 8604A5522A68B3590025E43F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8604A5502A68B3590025E43F /* Seventeen Again */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8604A54F2A68B3590025E43F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8604A55D2A68B35B0025E43F /* Preview Assets.xcassets in Resources */,
+				8604A5592A68B35B0025E43F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8604A54D2A68B3590025E43F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8604A5572A68B3590025E43F /* ContentView.swift in Sources */,
+				8604A5552A68B3590025E43F /* Seventeen_AgainApp.swift in Sources */,
+				8684A9332A695E460070A9D0 /* MapView.swift in Sources */,
+				86E1AE4D2A69A1DB0024538A /* VegasChart.swift in Sources */,
+				8611502F2A696D0000F841C1 /* Place.swift in Sources */,
+				8604A5662A68C1F10025E43F /* ScrollImage.swift in Sources */,
+				8604A5642A68BECB0025E43F /* Scrolling.swift in Sources */,
+				86DF5ADA2A6980CD00E42D55 /* Symbols.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8604A55E2A68B35B0025E43F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8604A55F2A68B35B0025E43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		8604A5612A68B35B0025E43F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Seventeen Again/Seventeen_Again.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Seventeen Again/Preview Content\"";
+				DEVELOPMENT_TEAM = YHSJZK2MNG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marccruz.Seventeen-Again";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8604A5622A68B35B0025E43F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Seventeen Again/Seventeen_Again.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Seventeen Again/Preview Content\"";
+				DEVELOPMENT_TEAM = YHSJZK2MNG;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marccruz.Seventeen-Again";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8604A54C2A68B3580025E43F /* Build configuration list for PBXProject "Seventeen Again" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8604A55E2A68B35B0025E43F /* Debug */,
+				8604A55F2A68B35B0025E43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8604A5602A68B35B0025E43F /* Build configuration list for PBXNativeTarget "Seventeen Again" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8604A5612A68B35B0025E43F /* Debug */,
+				8604A5622A68B35B0025E43F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8604A5492A68B3580025E43F /* Project object */;
+}
