@@ -10,7 +10,7 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
-    @Query(sort: \.name) private var places: [Place]
+    @Query(sort: \Place.name) private var places: [Place]
     
     var body: some View {
         NavigationStack {
@@ -40,11 +40,11 @@ struct ContentView: View {
                 place in MapView(place: place)
             }
         }
-//        .task {
-//            for place in SampleTrip.places {
-//                modelContext.insert(place)
-//            }
-//        }
+        .task {
+            for place in SampleTrip.places {
+                modelContext.insert(place)
+            }
+        }
     }
 
 }
